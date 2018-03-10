@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Sequência de jogos usada:
+data/lotofacil/lotofacil/spiders/games_sequences.json
+
 # Distribution / packaging
 .Python
 env/
