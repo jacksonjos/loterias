@@ -50,6 +50,6 @@ This project uses Python3.6 and Scrapy.
 
 
 # References
-[1] http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/
-[2] Projects Docker file is inspired by: https://hub.docker.com/r/aciobanu/scrapy/~/dockerfile/
-[3] https://scrapy.org/
+[1] http://loterias.caixa.gov.br/wps/portal/loterias/landing/lotofacil/  
+[2] Projects Docker file is inspired by: https://hub.docker.com/r/aciobanu/scrapy/~/dockerfile/  
+[3] https://scrapy.org/  
