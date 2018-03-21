@@ -21,7 +21,7 @@ This project uses Python3.6 and Scrapy.
     $ docker run --name lotofacil_c --mount type=bind,source="$(pwd)"/data,target=/data -i -t lotofacil_i /bin/sh
 
     4. To run this project, i.e., run Scrapy to crawl games data and check if some ticket won the games data crawled, *when inside the container*, type:
-    $ cd /data/
+    $ cd /data/lotofacil
     $ scrapy crawl -a "first_game=number_of_first_game" -a "last_game=number_of_last_game" lotofacil
 
 
