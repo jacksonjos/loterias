@@ -35,7 +35,7 @@ class LotofacilSpider(scrapy.Spider):
 
     def parse(self, response):
         princ_url = response.css("base::attr(href)").extract()[0]
-        search_url = response.css("div#resultados input[type=hidden]::attr(value)").extract()[0]
+        search_url = response.css("div#resultados input[type=hidden][id=urlBuscarResultado]::attr(value)").extract()[0]
         search_key = response.css("div#resultados input[type=text]::attr(name)").extract()[0]
 
         for game_number in range(int(self.first_game), int(self.last_game) + 1):
